@@ -8,13 +8,19 @@ body {
   background-color: #e4e4e4;
 }
 
-.animation1__ball {
+.animation1__ball,
+.animation2__ball {
   display: inline-block;
   cursor: pointer;
 }
 
-.animation1__floor {
+.animation1__floor,
+.animation2__floor {
   height: 3px;
   margin-top: 200px;
   background-color: #000;
+}
+
+.animation2__ball {
+  position: relative;
 }

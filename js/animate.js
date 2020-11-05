@@ -6,7 +6,6 @@ function animate({
     duration = 1000
 }) {
 
-    console.warn(duration);
     let start = performance.now();
 
     requestAnimationFrame(function animate(time) {
